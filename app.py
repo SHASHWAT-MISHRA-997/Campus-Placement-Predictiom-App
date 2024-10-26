@@ -94,7 +94,12 @@ st.markdown(
 
 # App Title and Brief Description
 st.sidebar.title("🎓 Campus Placement Prediction App")
-st.sidebar.image("Campus Placement Prediction App.png", use_column_width=True)
+# Check if the image file exists before displaying
+image_path = "Campus Placement Prediction App.png"
+if os.path.exists(image_path):
+    st.sidebar.image(image_path, use_column_width=True)
+else:
+    st.sidebar.write("Image not found.")
 
 
 
