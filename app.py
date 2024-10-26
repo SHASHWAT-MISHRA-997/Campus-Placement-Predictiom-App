@@ -124,6 +124,10 @@ st.sidebar.write("""
 
 4. **Predict Placement**: Once the model is trained, enter your details and click **"Predict Placement"**. The app will estimate your likelihood of placement and provide a probability score for “Placed” or “Not Placed.”
 
+""")
+
+
+
 
 def train_placement_model(model_choice):
     st.write("🔍 **Training Placement Prediction Model...**")
