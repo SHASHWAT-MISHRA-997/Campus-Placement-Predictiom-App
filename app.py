@@ -42,7 +42,6 @@ st.write("""
 4. **Make a Prediction**: Enter your details to get an estimation of your placement likelihood.
 """)
 
-# Function to train the placement prediction model
 def train_placement_model(model_choice):
     st.write("🔍 **Training Placement Prediction Model...**")
 
@@ -50,18 +49,32 @@ def train_placement_model(model_choice):
     data_path = 'Placement_Data.csv'
     df = pd.read_csv(data_path)
 
+    # Display column names to debug missing columns
+    st.write("Dataset Columns:", df.columns.tolist())  # Print available columns for debugging
+
     # Preprocess the dataset
     st.write("🛠️ **Preprocessing Data...**")
     df['gender'] = df['gender'].map({'M': 0, 'F': 1})  # Encode gender
     df['status'] = df['status'].map({'Placed': 1, 'Not Placed': 0})  # Encode placement status
     df['workex'] = df['workex'].map({'Yes': 1, 'No': 0})  # Encode work experience
-    df = pd.get_dummies(df, columns=['degree_t', 'ssc_b', 'hsc_b', 'hsc_s'])
+
+    # Only apply get_dummies to columns that exist in the DataFrame
+    dummy_columns = ['degree_t', 'ssc_b', 'hsc_b', 'hsc_s']
+    existing_columns = [col for col in dummy_columns if col in df.columns]
+    
+    if existing_columns:
+        df = pd.get_dummies(df, columns=existing_columns, drop_first=True)
+    else:
+        st.write("⚠️ None of the dummy columns were found in the dataset.")
 
     # Define features (X) and target (y)
     X = df[['hsc_p', 'ssc_p', 'gender', 'workex', 'CGPA', 'Internships', 
             'Projects', 'Workshops/Certifications', 'AptitudeTestScore', 'SoftSkillsRating', 
             'AcademicConsistency', 'EngagementScore', 'PreparednessIndex', 'LeadershipScore']]
     y = df['status']
+
+    # (Continue with the rest of the function as you have it)
+
 
     # Split the data into training and testing sets
     st.write("📊 **Splitting Data into Training and Testing Sets...**")
@@ -89,7 +102,8 @@ def train_placement_model(model_choice):
     st.success(f"✅ **Model trained and saved as 'placement_model.joblib' ({model_choice}).**")
 
     # Save the trained model to a file
-    joblib.dump(model, 'placement_model.joblib')
+    feature_names = X.columns.tolist()
+    joblib.dump((model, feature_names), 'placement_model.joblib')
 
     # Evaluate the model on the test set
     y_pred = model.predict(X_test)
@@ -120,16 +134,25 @@ def plot_feature_importance(model, X, y):
 # Function to load the trained model
 def load_model():
     try:
-        model = joblib.load('placement_model.joblib')
-        return model
+        model, feature_names = joblib.load('placement_model.joblib')
+        return model, feature_names
     except FileNotFoundError:
         st.error("⚠️ Model not found. Please train the model first.")
-        return None
+        return None, None
+
 
 # Function for making placement predictions
-def make_placement_prediction(model, user_input):
-    probabilities = model.predict_proba([user_input])[0]
-    prediction = model.predict([user_input])
+def make_placement_prediction(model, feature_names, user_input):
+    # Convert user_input to DataFrame and generate dummy variables
+    user_input_df = pd.DataFrame([user_input])
+    user_input_df = pd.get_dummies(user_input_df)
+    
+    # Align user_input_df columns with feature_names from the model
+    user_input_df = user_input_df.reindex(columns=feature_names, fill_value=0)
+    
+    # Make predictions
+    probabilities = model.predict_proba(user_input_df)[0]
+    prediction = model.predict(user_input_df)
     return prediction, probabilities
 
 # Streamlit app interface
@@ -210,9 +233,9 @@ if st.button("🔄 Train and Compare Models"):
 
 st.write("After training, click the button below to predict placement status based on the entered details.")
 if st.button("🔮 Predict Placement"):
-    model = load_model()
+    model, feature_names = load_model()
     if model:
-        prediction, probabilities = make_placement_prediction(model, user_input)
+        prediction, probabilities = make_placement_prediction(model, feature_names, user_input)
         status = "Placed" if prediction[0] == 1 else "Not Placed"
         probability = probabilities[1] if prediction[0] == 1 else probabilities[0]
         st.write(f"### 📊 Prediction Result: {status} (Probability: {probability * 100:.2f}%)")
