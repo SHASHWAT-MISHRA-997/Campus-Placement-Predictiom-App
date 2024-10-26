@@ -95,15 +95,21 @@ st.markdown(
 # App Title and Brief Description
 st.sidebar.title("🎓 Campus Placement Prediction App")
 
-st.sidebar.image("Campus Placement Prediction App.png", use_column_width=True)
+# Check if the image file exists before displaying
+image_path = "Campus Placement Prediction App.png"
+if os.path.exists(image_path):
+    st.sidebar.image(image_path, use_column_width=True)
+else:
+    st.sidebar.write("Image not found.")
 
+# App description
 st.sidebar.write("""
     Welcome to the **Campus Placement Prediction App**! 🎉
 
-    This app uses machine learning to predict a candidate's likelihood of placement based on various academic 
-    and skill attributes. It’s a great tool for students to gauge their placement readiness and for recruiters 
-    to pre-screen candidates.
+    This app leverages machine learning to predict a candidate's placement likelihood based on academic and skill attributes.
+    A useful tool for students to assess their readiness and for recruiters to pre-screen potential candidates.
 """)
+
 st.sidebar.markdown(
         '<a href="https://www.linkedin.com/in/sm980/" class="creator-link">Created by SHASHWAT MISHRA</a>',
         unsafe_allow_html=True)
@@ -139,13 +145,11 @@ def train_placement_model(model_choice):
     # Display column names to debug missing columns
     st.write("Dataset Columns:", df.columns.tolist())  # Print available columns for debugging
 
-    # Preprocess the dataset
-    st.write("🛠️ **Preprocessing Data...**")
+    # Data Preprocessing
     df['gender'] = df['gender'].map({'M': 0, 'F': 1})  # Encode gender
     df['status'] = df['status'].map({'Placed': 1, 'Not Placed': 0})  # Encode placement status
     df['workex'] = df['workex'].map({'Yes': 1, 'No': 0})  # Encode work experience
 
-    # Only apply get_dummies to columns that exist in the DataFrame
     dummy_columns = ['degree_t', 'ssc_b', 'hsc_b', 'hsc_s']
     existing_columns = [col for col in dummy_columns if col in df.columns]
     
@@ -154,11 +158,15 @@ def train_placement_model(model_choice):
     else:
         st.write("⚠️ None of the dummy columns were found in the dataset.")
 
+
     # Define features (X) and target (y)
+  # Define features (X) and target (y)
     X = df[['hsc_p', 'ssc_p', 'gender', 'workex', 'CGPA', 'Internships', 
-            'Projects', 'Workshops/Certifications', 'AptitudeTestScore', 'SoftSkillsRating', 
-            'AcademicConsistency', 'EngagementScore', 'PreparednessIndex', 'LeadershipScore']]
+            'Projects', 'Workshops/Certifications', 'AptitudeTestScore', 
+            'SoftSkillsRating', 'AcademicConsistency', 'EngagementScore', 
+            'PreparednessIndex', 'LeadershipScore']]
     y = df['status']
+
 
     # (Continue with the rest of the function as you have it)
 
