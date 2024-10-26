@@ -31,8 +31,8 @@ st.markdown("""
             color: black;
             border: none;
             border-radius: 5px;
-            padding: 10px 15px;
-            font-size: 16px;
+            padding: 8px 12px; /* Reduced padding for mobile */
+            font-size: 14px; /* Adjusted font size for mobile */
             transition: background-color 0.3s, transform 0.3s;
         }
         .stButton > button:active {
@@ -40,18 +40,18 @@ st.markdown("""
         }
         .creator-link {
             color: black;
-            font-size: 16px;
+            font-size: 14px; /* Adjusted font size for mobile */
             font-weight: bold;
             text-decoration: none;
-            display: block;  /* Make the link a block element */
-            text-align: center;  /* Center text */
-            margin-top: 10px;   /* Add some space above */
+            display: block;  
+            text-align: center;  
+            margin-top: 10px;   
         }
         .creator-link:hover {
-            background-color: white;  /* Background color on hover */
-            color: red;              /* Change text color on hover */
-            padding: 5px;           /* Add some padding on hover */
-            border-radius: 5px;     /* Rounded corners */
+            background-color: white;  
+            color: red;              
+            padding: 5px;           
+            border-radius: 5px;     
         }
     </style>
 """, unsafe_allow_html=True)
@@ -64,10 +64,8 @@ banner_image_path = "Campus Placement Prediction app.png"  # Adjust this path as
 if os.path.exists(banner_image_path):
     banner_image = Image.open(banner_image_path)
     
-    # Resize the image to a specific width (e.g., 800 pixels) while maintaining aspect ratio
-    banner_image = banner_image.resize((800, int(banner_image.height * (800 / banner_image.width))), Image.LANCZOS)
-    
-    st.image(banner_image, use_column_width=False, caption="Campus Placement Prediction App ")
+    # Use column width to automatically adjust size
+    st.image(banner_image, use_column_width=True, caption="Campus Placement Prediction App")
 else:
     st.error("Banner image not found. Please check the file path.")
 
@@ -82,7 +80,6 @@ st.markdown(
         '<a href="https://www.linkedin.com/in/sm980/" class="creator-link">Created by SHASHWAT MISHRA</a>',
         unsafe_allow_html=True)
 
-
 st.write("### 🔍 How to Use This App:")
 st.write("""
 1. **Input your details** in the sidebar by entering your academic and skill-related information.
@@ -90,7 +87,6 @@ st.write("""
 3. **Train the model** to see its performance on placement prediction.
 4. **Make a Prediction**: Enter your details to get an estimation of your placement likelihood.
 """)
-
 def train_placement_model(model_choice):
     st.write("🔍 **Training Placement Prediction Model...**")
 
