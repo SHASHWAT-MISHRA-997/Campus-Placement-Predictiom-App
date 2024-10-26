@@ -121,6 +121,21 @@ st.sidebar.write("""
 
 """)
 
+# WhatsApp logo and banner
+current_dir = os.path.dirname(__file__)
+logo_path = os.path.join(current_dir, "Campus Placement Prediction App
+.png")
+
+
+try:
+    st.sidebar.image(logo_path, width=300)
+    
+except Exception as e:
+    print(f"Error opening file: {e}")
+    print(f"Current working directory: {os.getcwd()}")
+    print(f"Logo file exists: {os.path.exists(logo_path)}")
+
+
 
 
 
