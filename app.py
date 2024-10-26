@@ -90,11 +90,19 @@ st.markdown(
     unsafe_allow_html=True
 )
 
-
-
 # App Title and Brief Description
 st.sidebar.title("🎓 Campus Placement Prediction App")
 
+current_dir = os.path.dirname(__file__)
+logo_path = os.path.join(current_dir, "Campus Placement Prediction app.png")
+
+try:
+    st.sidebar.image(logo_path, width=300)
+    
+except Exception as e:
+    print(f"Error opening file: {e}")
+    print(f"Current working directory: {os.getcwd()}")
+    print(f"Logo file exists: {os.path.exists(logo_path)}")
 
 
 # App description
@@ -120,23 +128,6 @@ st.sidebar.write("""
 4. **Predict Placement**: Once the model is trained, enter your details and click **"Predict Placement"**. The app will estimate your likelihood of placement and provide a probability score for “Placed” or “Not Placed.”
 
 """)
-
-# WhatsApp logo and banner
-current_dir = os.path.dirname(__file__)
-logo_path = os.path.join(current_dir, "Campus Placement Prediction app.png")
-
-
-try:
-    st.sidebar.image(logo_path, width=300)
-    
-except Exception as e:
-    print(f"Error opening file: {e}")
-    print(f"Current working directory: {os.getcwd()}")
-    print(f"Logo file exists: {os.path.exists(logo_path)}")
-
-
-
-
 
 def train_placement_model(model_choice):
     st.write("🔍 **Training Placement Prediction Model...**")
