@@ -123,8 +123,7 @@ st.sidebar.write("""
 
 # WhatsApp logo and banner
 current_dir = os.path.dirname(__file__)
-logo_path = os.path.join(current_dir, "Campus Placement Prediction App
-.png")
+logo_path = os.path.join(current_dir, "Campus Placement Prediction app.png")
 
 
 try:
