@@ -124,16 +124,6 @@ st.sidebar.write("""
 
 4. **Predict Placement**: Once the model is trained, enter your details and click **"Predict Placement"**. The app will estimate your likelihood of placement and provide a probability score for “Placed” or “Not Placed.”
 
-5. **Download the Dataset**: If you’d like to download and view the dataset used in this app, click below.
-""")
-
-with open("Placement_Data.csv", "rb") as file:
-# Embedding button with class for custom styling
-    st.sidebar.markdown(
-        f'<a href="data:file/csv;base64," download="Placement_Data.csv" class="download-button">📥 Download Placement_Data.csv</a>',
-        unsafe_allow_html=True
-    )
-
 
 def train_placement_model(model_choice):
     st.write("🔍 **Training Placement Prediction Model...**")
