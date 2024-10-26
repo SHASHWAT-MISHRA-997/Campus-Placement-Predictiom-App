@@ -47,7 +47,7 @@ def train_placement_model(model_choice):
     st.write("🔍 **Training Placement Prediction Model...**")
 
     # Load the dataset
-    data_path = '/mnt/data/Placement_Data.csv'
+    data_path = 'Placement_Data.csv'
     df = pd.read_csv(data_path)
 
     # Preprocess the dataset
