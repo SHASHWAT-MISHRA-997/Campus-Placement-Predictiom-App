@@ -91,7 +91,7 @@ st.markdown(
 )
 
 # App Title and Brief Description
-st.sidebar.title("🎓 Campus Placement Prediction App")
+st.title("🎓Campus Placement Prediction App")
 
 current_dir = os.path.dirname(__file__)
 logo_path = os.path.join(current_dir, "Campus Placement Prediction app.png")
