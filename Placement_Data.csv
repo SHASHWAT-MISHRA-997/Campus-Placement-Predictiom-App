@@ -1,0 +1,216 @@
+sl_no,gender,ssc_p,ssc_b,hsc_p,hsc_b,hsc_s,degree_type,CGPA,Internships,Projects,Workshops/Certifications,AptitudeTestScore,SoftSkillsRating,ExtracurricularActivities,PlacementTraining,workex,status,AcademicConsistency,EngagementScore,PreparednessIndex,GradeCategory,LeadershipScore,WillingnessToRelocate,TechnicalSkillLevel,FinancialSupportStatus
+1,M,67,Others,91,Others,Commerce,Sci&Tech,7.5,1,1,1,65,4.4,No,No,No,Not Placed,35.82089552,2,66,Medium,0,Yes,Medium,Yes
+2,M,79.33,Central,78.33,Others,Science,Sci&Tech,8.9,0,3,2,90,4,Yes,Yes,Yes,Placed,-1.260557166,6,91,High,3,No,High,Yes
+3,M,65,Central,68,Central,Arts,Comm&Mgmt,7.3,1,2,2,82,4.8,Yes,No,No,Not Placed,4.615384615,5,83,Medium,3,No,High,No
+4,M,56,Central,52,Central,Science,Sci&Tech,7.5,1,1,2,85,4.4,Yes,Yes,No,Not Placed,-7.142857143,4,87,Medium,2,Yes,High,Yes
+5,M,85.8,Central,73.6,Central,Commerce,Comm&Mgmt,8.3,1,2,2,86,4.5,Yes,Yes,No,Placed,-14.21911422,5,88,High,3,No,High,No
+6,M,55,Others,49.8,Others,Science,Sci&Tech,7,0,2,2,71,4.2,Yes,No,Yes,Not Placed,-9.454545455,5,71,Medium,3,No,High,Yes
+7,F,46,Others,49.2,Others,Commerce,Comm&Mgmt,7.7,1,1,1,76,4,No,No,No,Not Placed,6.956521739,2,77,Medium,0,No,Medium,Yes
+8,M,82,Central,64,Central,Science,Sci&Tech,7.7,2,1,0,85,3.5,Yes,Yes,Yes,Not Placed,-21.95121951,2,88,Medium,1,No,Low,Yes
+9,M,73,Central,79,Central,Commerce,Comm&Mgmt,6.5,1,1,0,84,3.9,No,Yes,No,Not Placed,8.219178082,1,86,Low,0,No,Low,No
+10,M,58,Central,70,Central,Commerce,Comm&Mgmt,7.8,1,3,2,79,4.4,Yes,Yes,No,Placed,20.68965517,6,81,Medium,3,No,High,No
+11,M,58,Central,61,Central,Commerce,Comm&Mgmt,8.3,2,3,2,90,4.8,Yes,Yes,Yes,Placed,5.172413793,6,93,High,3,No,High,No
+12,M,69.6,Central,68.4,Central,Commerce,Comm&Mgmt,7.9,1,3,2,90,4.8,Yes,Yes,Yes,Placed,-1.724137931,6,92,Medium,3,Yes,High,Yes
+13,F,47,Central,55,Others,Science,Comm&Mgmt,8.3,2,3,2,90,4.5,Yes,Yes,No,Placed,17.0212766,6,93,High,3,Yes,High,Yes
+14,F,77,Central,87,Central,Commerce,Comm&Mgmt,7.7,1,1,1,74,4.6,No,Yes,No,Not Placed,12.98701299,2,76,Medium,0,No,Medium,No
+15,M,62,Central,47,Central,Commerce,Comm&Mgmt,7.5,1,1,1,66,4.1,No,No,No,Not Placed,-24.19354839,2,67,Medium,0,Yes,Medium,No
+16,F,65,Central,75,Central,Commerce,Comm&Mgmt,7.4,0,2,1,78,4.4,No,No,Yes,Not Placed,15.38461538,3,78,Medium,1,Yes,Medium,No
+17,M,63,Central,66.2,Central,Commerce,Comm&Mgmt,8.6,0,3,0,84,4.8,Yes,Yes,Yes,Placed,5.079365079,4,85,High,2,Yes,Low,No
+18,F,55,Central,67,Central,Commerce,Comm&Mgmt,8.2,2,3,2,90,4.7,Yes,Yes,No,Placed,21.81818182,6,93,High,3,Yes,High,Yes
+19,F,63,Central,66,Central,Commerce,Comm&Mgmt,6.8,2,3,0,73,4.4,Yes,Yes,No,Not Placed,4.761904762,4,76,Medium,2,Yes,Low,Yes
+20,M,60,Others,67,Others,Arts,Comm&Mgmt,7.4,1,2,0,70,4.4,No,Yes,Yes,Not Placed,11.66666667,2,72,Medium,1,No,Low,Yes
+21,M,62,Others,65,Others,Commerce,Comm&Mgmt,7.6,2,1,0,84,4.4,No,Yes,No,Not Placed,4.838709677,1,87,Medium,0,Yes,Low,No
+22,F,79,Others,76,Others,Commerce,Comm&Mgmt,7.4,1,2,1,72,3.5,No,Yes,No,Not Placed,-3.797468354,3,74,Medium,1,No,Medium,No
+23,F,69.8,Others,60.8,Others,Science,Sci&Tech,7.7,0,1,0,77,3.4,No,Yes,No,Not Placed,-12.89398281,1,78,Medium,0,No,Low,Yes
+24,F,77.4,Others,60,Others,Science,Sci&Tech,7.4,1,1,0,60,3.8,No,No,Yes,Not Placed,-22.48062016,1,61,Medium,0,Yes,Low,No
+25,M,76.5,Others,97.7,Others,Science,Sci&Tech,7.4,1,2,1,90,4.3,No,Yes,No,Not Placed,27.7124183,3,92,Medium,1,Yes,Medium,Yes
+26,F,52.58,Others,54.6,Central,Commerce,Comm&Mgmt,6.7,1,1,1,70,4,No,No,Yes,Not Placed,3.84176493,2,71,Medium,0,No,Medium,Yes
+27,M,71,Others,79,Others,Commerce,Comm&Mgmt,7.4,2,3,2,78,4.3,Yes,Yes,Yes,Not Placed,11.26760563,6,81,Medium,3,No,High,No
+28,M,63,Others,67,Others,Commerce,Comm&Mgmt,8.3,1,1,1,81,4.5,Yes,Yes,No,Not Placed,6.349206349,3,83,High,1,No,Medium,Yes
+29,M,76.76,Others,76.5,Others,Commerce,Comm&Mgmt,7.5,1,2,1,84,4.4,No,No,Yes,Not Placed,-0.338718082,3,85,Medium,1,No,Medium,No
+30,M,62,Central,67,Central,Commerce,Comm&Mgmt,7,0,1,1,63,3.9,No,Yes,No,Not Placed,8.064516129,2,64,Medium,0,Yes,Medium,No
+31,F,64,Central,73.5,Central,Commerce,Comm&Mgmt,8.4,2,3,2,90,4.6,Yes,Yes,No,Placed,14.84375,6,93,High,3,No,High,No
+32,F,67,Central,53,Central,Science,Sci&Tech,7.4,1,2,1,76,4.7,No,Yes,No,Not Placed,-20.89552239,3,78,Medium,1,Yes,Medium,No
+33,F,61,Central,81,Central,Commerce,Comm&Mgmt,8.5,1,3,0,90,4.8,Yes,Yes,No,Placed,32.78688525,4,92,High,2,No,Low,Yes
+34,F,87,Others,65,Others,Science,Comm&Mgmt,8.6,1,2,2,75,4.3,Yes,Yes,Yes,Placed,-25.28735632,5,77,High,3,Yes,High,Yes
+35,M,62,Others,51,Others,Science,Others,6.9,0,1,0,70,3.9,No,Yes,No,Not Placed,-17.74193548,1,71,Medium,0,No,Low,Yes
+36,F,69,Central,78,Central,Commerce,Comm&Mgmt,7.8,1,1,1,67,4.3,No,No,No,Not Placed,13.04347826,2,68,Medium,0,No,Medium,No
+37,M,51,Central,44,Central,Commerce,Comm&Mgmt,8.3,1,2,2,89,4.8,Yes,Yes,No,Placed,-13.7254902,5,91,High,3,Yes,High,No
+38,F,79,Central,76,Central,Science,Sci&Tech,8.2,1,2,2,77,4.2,No,Yes,No,Not Placed,-3.797468354,4,79,High,2,No,High,No
+39,F,73,Others,58,Others,Science,Comm&Mgmt,8.5,2,3,3,90,4.7,Yes,Yes,No,Placed,-20.54794521,7,93,High,3,No,High,Yes
+40,M,81,Others,68,Others,Science,Sci&Tech,6.7,0,3,2,88,4.2,Yes,Yes,No,Not Placed,-16.04938272,6,89,Medium,3,Yes,High,No
+41,F,78,Central,77,Others,Commerce,Comm&Mgmt,8.6,2,3,1,90,4.8,Yes,Yes,No,Placed,-1.282051282,5,93,High,2,Yes,Medium,No
+42,F,74,Others,63.16,Others,Commerce,Comm&Mgmt,8.3,2,3,2,85,4.8,Yes,Yes,Yes,Placed,-14.64864865,6,88,High,3,No,High,No
+43,M,49,Others,39,Central,Science,Others,6.7,0,1,1,72,4.4,No,No,No,Not Placed,-20.40816327,2,72,Medium,0,Yes,Medium,No
+44,M,87,Others,87,Others,Commerce,Comm&Mgmt,8.6,2,3,2,88,4.7,Yes,Yes,No,Placed,0,6,91,High,3,No,High,Yes
+45,F,77,Others,73,Others,Commerce,Comm&Mgmt,7.4,1,3,0,86,4.8,No,Yes,Yes,Not Placed,-5.194805195,3,88,Medium,1,No,Low,Yes
+46,F,76,Central,64,Central,Science,Sci&Tech,6.7,1,1,2,73,4.5,No,No,No,Not Placed,-15.78947368,3,74,Medium,1,No,High,No
+47,F,70.89,Others,71.98,Others,Science,Comm&Mgmt,6.9,1,1,1,76,4.4,No,No,No,Not Placed,1.537593455,2,77,Medium,0,No,Medium,No
+48,M,63,Central,60,Central,Commerce,Comm&Mgmt,7,1,1,0,62,4.3,No,Yes,Yes,Not Placed,-4.761904762,1,64,Medium,0,No,Low,Yes
+49,M,63,Others,62,Others,Commerce,Comm&Mgmt,8.1,1,3,2,90,4.6,Yes,Yes,No,Placed,-1.587301587,6,92,High,3,Yes,High,Yes
+50,F,50,Others,37,Others,Arts,Others,7.7,1,2,0,74,3.8,Yes,No,No,Not Placed,-26,3,75,Medium,2,No,Low,Yes
+51,F,75.2,Central,73.2,Central,Science,Comm&Mgmt,6.5,0,2,1,77,4.8,No,Yes,No,Not Placed,-2.659574468,3,78,Low,1,Yes,Medium,No
+52,M,54.4,Central,61.12,Central,Commerce,Comm&Mgmt,8.2,1,3,0,65,4.1,Yes,No,No,Not Placed,12.35294118,4,66,High,2,No,Low,No
+53,F,40.89,Others,45.83,Others,Commerce,Comm&Mgmt,8.1,2,3,2,90,4.7,Yes,Yes,No,Placed,12.08119345,6,93,High,3,No,High,Yes
+54,M,80,Others,70,Others,Science,Sci&Tech,6.5,1,2,1,80,4.5,Yes,Yes,No,Not Placed,-12.5,4,82,Low,2,No,Medium,No
+55,F,74,Central,60,Others,Science,Comm&Mgmt,6.5,0,2,1,72,4.5,No,No,No,Not Placed,-18.91891892,3,72,Low,1,No,Medium,No
+56,M,60.4,Central,66.6,Others,Science,Comm&Mgmt,8.8,2,3,2,90,4.8,Yes,Yes,No,Placed,10.26490066,6,93,High,3,Yes,High,No
+57,M,63,Others,71.4,Others,Commerce,Comm&Mgmt,8,1,1,0,74,4.5,Yes,Yes,No,Not Placed,13.33333333,2,76,Medium,1,No,Low,No
+58,M,68,Central,76,Central,Commerce,Comm&Mgmt,8.4,2,2,2,81,4.6,Yes,Yes,No,Placed,11.76470588,5,84,High,3,Yes,High,No
+59,M,74,Central,62,Others,Science,Comm&Mgmt,8,1,1,0,86,4.2,No,No,No,Not Placed,-16.21621622,1,87,Medium,0,Yes,Low,Yes
+60,M,52.6,Central,65.58,Others,Science,Sci&Tech,6.6,0,1,0,76,3.9,No,Yes,No,Not Placed,24.67680608,1,77,Medium,0,No,Low,Yes
+61,M,74,Central,70,Central,Science,Comm&Mgmt,7.7,2,2,0,86,4,Yes,Yes,Yes,Placed,-5.405405405,3,89,Medium,2,No,Low,Yes
+62,M,84.2,Central,73.4,Central,Commerce,Comm&Mgmt,8.2,1,2,1,86,4.3,Yes,Yes,No,Placed,-12.82660333,4,88,High,2,Yes,Medium,No
+63,F,86.5,Others,64.2,Others,Science,Sci&Tech,7.2,1,2,0,74,4.1,No,No,No,Not Placed,-25.78034682,2,75,Medium,1,No,Low,Yes
+64,M,61,Others,70,Others,Commerce,Comm&Mgmt,6.6,1,2,1,72,4.1,No,No,No,Not Placed,14.75409836,3,73,Medium,1,Yes,Medium,No
+65,M,80,Others,73,Others,Commerce,Comm&Mgmt,7.6,1,2,0,77,4.6,Yes,No,No,Placed,-8.75,3,78,Medium,2,No,Low,Yes
+66,M,54,Others,47,Others,Science,Comm&Mgmt,8,0,3,0,68,4.2,Yes,No,No,Not Placed,-12.96296296,4,68,Medium,2,Yes,Low,No
+67,M,83,Others,74,Others,Science,Comm&Mgmt,7.8,2,3,2,87,4.8,Yes,No,No,Placed,-10.84337349,6,89,Medium,3,Yes,High,No
+68,M,80.92,Others,78.5,Others,Commerce,Comm&Mgmt,7.2,1,1,0,82,4.6,Yes,Yes,No,Not Placed,-2.990608008,2,84,Medium,1,Yes,Low,Yes
+69,F,69.7,Central,47,Central,Commerce,Sci&Tech,7.7,1,1,0,74,4.1,No,Yes,No,Not Placed,-32.56814921,1,76,Medium,0,Yes,Low,Yes
+70,M,73,Central,73,Central,Science,Sci&Tech,8.4,1,1,2,67,3.8,Yes,Yes,Yes,Not Placed,0,4,69,High,2,Yes,High,Yes
+71,M,82,Others,61,Others,Science,Sci&Tech,7.5,1,1,1,69,4.3,No,Yes,No,Not Placed,-25.6097561,2,71,Medium,0,No,Medium,No
+72,M,75,Others,70.29,Others,Commerce,Comm&Mgmt,6.7,0,2,1,79,4.1,No,No,No,Not Placed,-6.28,3,79,Medium,1,No,Medium,Yes
+73,M,84.86,Others,67,Others,Science,Comm&Mgmt,8.1,2,3,2,90,4.8,Yes,Yes,No,Placed,-21.04642941,6,93,High,3,Yes,High,Yes
+74,M,64.6,Central,83.83,Others,Commerce,Comm&Mgmt,7.5,1,2,0,73,4.4,No,No,No,Not Placed,29.76780186,2,74,Medium,1,Yes,Low,No
+75,M,56.6,Central,64.8,Central,Commerce,Comm&Mgmt,7.4,2,1,0,75,4.2,No,Yes,No,Not Placed,14.48763251,1,78,Medium,0,Yes,Low,No
+76,F,59,Central,62,Others,Commerce,Comm&Mgmt,6.5,1,1,0,63,4.5,No,Yes,No,Not Placed,5.084745763,1,65,Low,0,No,Low,No
+77,F,66.5,Others,70.4,Central,Arts,Comm&Mgmt,8.1,1,3,1,90,4.6,Yes,Yes,No,Placed,5.864661654,5,92,High,2,No,Medium,No
+78,M,64,Others,80,Others,Science,Sci&Tech,6.9,1,1,0,83,3.5,No,Yes,Yes,Not Placed,25,1,85,Medium,0,Yes,Low,Yes
+79,M,84,Others,90.9,Others,Science,Sci&Tech,8.2,1,3,0,83,4.8,Yes,Yes,No,Placed,8.214285714,4,85,High,2,No,Low,No
+80,F,69,Central,62,Central,Science,Sci&Tech,7.6,1,2,1,72,3.9,No,Yes,No,Not Placed,-10.14492754,3,74,Medium,1,Yes,Medium,Yes
+81,F,69,Others,62,Others,Commerce,Comm&Mgmt,6.6,1,1,1,69,3.6,No,Yes,Yes,Not Placed,-10.14492754,2,71,Medium,0,Yes,Medium,Yes
+82,M,81.7,Others,63,Others,Science,Comm&Mgmt,6.7,1,2,1,74,4.8,Yes,Yes,Yes,Not Placed,-22.88861689,4,76,Medium,2,No,Medium,Yes
+83,M,63,Central,67,Central,Commerce,Comm&Mgmt,8.2,2,3,2,76,4.5,Yes,Yes,No,Placed,6.349206349,6,79,High,3,Yes,High,Yes
+84,M,84,Others,79,Others,Science,Sci&Tech,8.3,2,3,1,90,4.2,Yes,Yes,Yes,Placed,-5.952380952,5,93,High,2,No,Medium,No
+85,M,70,Central,63,Others,Science,Sci&Tech,7.6,0,2,0,86,4.8,Yes,Yes,Yes,Placed,-10,3,87,Medium,2,No,Low,No
+86,F,83.84,Others,89.83,Others,Commerce,Comm&Mgmt,6.7,1,3,0,87,4.6,Yes,No,Yes,Not Placed,7.144561069,4,88,Medium,2,No,Low,No
+87,M,62,Others,63,Others,Commerce,Comm&Mgmt,8.1,0,2,1,84,3.8,No,No,No,Not Placed,1.612903226,3,84,High,1,No,Medium,Yes
+88,M,59.6,Central,51,Central,Science,Others,8.5,1,2,2,79,3.9,Yes,Yes,No,Not Placed,-14.4295302,5,81,High,3,No,High,No
+89,F,66,Central,62,Central,Commerce,Comm&Mgmt,8.8,1,3,0,76,4.7,Yes,Yes,No,Placed,-6.060606061,4,78,High,2,No,Low,Yes
+90,F,84,Others,75,Others,Science,Sci&Tech,7.2,1,2,0,68,4.2,Yes,Yes,Yes,Not Placed,-10.71428571,3,70,Medium,2,Yes,Low,Yes
+91,F,85,Others,90,Others,Commerce,Comm&Mgmt,7.6,1,1,0,80,4.5,Yes,Yes,No,Not Placed,5.882352941,2,82,Medium,1,No,Low,No
+92,M,52,Central,57,Central,Commerce,Comm&Mgmt,7.1,1,1,0,70,3.3,No,No,No,Not Placed,9.615384615,1,71,Medium,0,No,Low,No
+93,F,60.23,Central,69,Central,Science,Comm&Mgmt,8.1,1,3,2,89,4.6,Yes,Yes,No,Placed,14.56085007,6,91,High,3,Yes,High,No
+94,M,52,Central,62,Central,Commerce,Comm&Mgmt,7.4,1,3,0,83,4.2,No,Yes,No,Not Placed,19.23076923,3,85,Medium,1,Yes,Low,No
+95,M,58,Central,62,Central,Commerce,Comm&Mgmt,7.7,2,2,2,85,4.8,Yes,Yes,No,Placed,6.896551724,5,88,Medium,3,No,High,No
+96,M,73,Central,78,Others,Commerce,Comm&Mgmt,7.5,0,1,1,75,3.3,No,Yes,Yes,Not Placed,6.849315068,2,76,Medium,0,Yes,Medium,No
+97,F,76,Central,70,Central,Science,Comm&Mgmt,7.5,1,1,0,64,4,No,No,Yes,Not Placed,-7.894736842,1,65,Medium,0,Yes,Low,Yes
+98,F,70.5,Central,62.5,Others,Commerce,Comm&Mgmt,7.8,2,2,2,90,4.8,Yes,No,No,Placed,-11.34751773,5,92,Medium,3,No,High,Yes
+99,F,69,Central,73,Central,Commerce,Comm&Mgmt,7.7,1,3,1,89,4.6,No,Yes,No,Not Placed,5.797101449,4,91,Medium,1,No,Medium,No
+100,M,54,Central,82,Others,Commerce,Sci&Tech,7.9,0,1,2,83,4.8,Yes,No,No,Not Placed,51.85185185,4,83,Medium,2,Yes,High,No
+101,F,45,Others,57,Others,Commerce,Comm&Mgmt,7.4,1,2,1,63,3.9,No,No,Yes,Not Placed,26.66666667,3,64,Medium,1,No,Medium,No
+102,M,63,Central,72,Central,Commerce,Comm&Mgmt,7.3,1,1,0,80,4.7,No,Yes,No,Not Placed,14.28571429,1,82,Medium,0,Yes,Low,No
+103,F,77,Others,61,Others,Commerce,Comm&Mgmt,6.5,1,1,1,62,3.8,No,Yes,Yes,Not Placed,-20.77922078,2,64,Low,0,Yes,Medium,No
+104,M,73,Central,78,Central,Science,Sci&Tech,7.5,2,1,1,76,4.2,Yes,Yes,Yes,Not Placed,6.849315068,3,79,Medium,1,No,Medium,No
+105,M,69,Central,63,Others,Science,Comm&Mgmt,6.5,1,1,0,68,4.1,No,No,Yes,Not Placed,-8.695652174,1,69,Low,0,Yes,Low,No
+106,M,59,Central,64,Others,Science,Sci&Tech,8.5,2,3,2,90,4.8,Yes,Yes,No,Placed,8.474576271,6,93,High,3,Yes,High,No
+107,M,61.08,Others,50,Others,Science,Sci&Tech,6.7,0,1,1,74,3.9,No,No,No,Not Placed,-18.14014407,2,74,Medium,0,Yes,Medium,No
+108,M,82,Others,90,Others,Commerce,Comm&Mgmt,6.5,0,1,0,82,4.4,No,No,No,Not Placed,9.756097561,1,82,Low,0,No,Low,No
+109,M,61,Central,82,Central,Commerce,Comm&Mgmt,8.1,1,3,2,90,4.8,Yes,Yes,No,Placed,34.42622951,6,92,High,3,No,High,Yes
+110,M,52,Central,63,Others,Science,Sci&Tech,8.7,2,3,2,90,4.8,Yes,Yes,Yes,Placed,21.15384615,6,93,High,3,Yes,High,Yes
+111,F,69.5,Central,70,Central,Science,Sci&Tech,8,1,1,3,84,4,No,Yes,No,Not Placed,0.71942446,4,86,Medium,1,No,High,Yes
+112,M,51,Others,54,Others,Science,Sci&Tech,7.3,1,3,1,81,4.2,Yes,Yes,No,Not Placed,5.882352941,5,83,Medium,2,Yes,Medium,Yes
+113,M,58,Others,61,Others,Commerce,Comm&Mgmt,7.4,1,1,1,81,4.1,Yes,No,No,Not Placed,5.172413793,3,82,Medium,1,Yes,Medium,No
+114,F,73.96,Others,79,Others,Commerce,Comm&Mgmt,8.6,2,3,0,81,4.7,Yes,No,No,Placed,6.814494321,4,83,High,2,Yes,Low,No
+115,M,65,Central,68,Others,Science,Comm&Mgmt,6.7,2,1,2,76,4.8,Yes,No,No,Not Placed,4.615384615,4,78,Medium,2,Yes,High,No
+116,F,73,Others,63,Others,Science,Comm&Mgmt,7.6,1,1,1,67,3.5,No,No,No,Not Placed,-13.69863014,2,68,Medium,0,Yes,Medium,Yes
+117,M,68.2,Central,72.8,Central,Commerce,Comm&Mgmt,8.8,1,3,2,90,4.6,Yes,Yes,Yes,Placed,6.744868035,6,92,High,3,No,High,No
+118,M,77,Others,75,Others,Science,Sci&Tech,6.5,1,2,0,65,4.4,No,Yes,No,Not Placed,-2.597402597,2,67,Low,1,Yes,Low,No
+119,M,76,Central,80,Central,Science,Sci&Tech,6.5,1,2,1,78,4.2,No,No,Yes,Not Placed,5.263157895,3,79,Low,1,No,Medium,No
+120,M,60.8,Central,68.4,Central,Commerce,Comm&Mgmt,7.4,1,2,1,75,4.2,No,Yes,Yes,Not Placed,12.5,3,77,Medium,1,Yes,Medium,No
+121,M,58,Others,40,Others,Science,Comm&Mgmt,8.7,2,3,2,81,4.7,Yes,Yes,No,Placed,-31.03448276,6,84,High,3,No,High,No
+122,F,64,Central,67,Others,Science,Sci&Tech,8,1,1,1,68,4.2,No,Yes,Yes,Not Placed,4.6875,2,70,Medium,0,No,Medium,No
+123,F,66.5,Central,66.8,Central,Arts,Comm&Mgmt,7.7,1,3,2,90,4.8,Yes,No,Yes,Placed,0.45112782,6,91,Medium,3,No,High,No
+124,M,74,Others,59,Others,Commerce,Comm&Mgmt,7.3,1,1,0,64,3.2,No,Yes,Yes,Not Placed,-20.27027027,1,66,Medium,0,No,Low,Yes
+125,M,67,Central,71,Central,Science,Others,8.4,2,1,2,76,4.1,No,No,Yes,Not Placed,5.970149254,3,78,High,1,No,High,Yes
+126,F,84,Central,73,Central,Commerce,Comm&Mgmt,7.7,1,2,0,73,4,No,Yes,No,Not Placed,-13.0952381,2,75,Medium,1,Yes,Low,Yes
+127,F,79,Others,61,Others,Science,Sci&Tech,7.5,1,1,1,68,4.7,No,No,Yes,Not Placed,-22.78481013,2,69,Medium,0,No,Medium,Yes
+128,F,72,Others,60,Others,Science,Comm&Mgmt,7.4,0,1,0,79,4.3,No,No,No,Not Placed,-16.66666667,1,79,Medium,0,No,Low,No
+129,M,80.4,Central,73.4,Central,Science,Sci&Tech,7.4,1,1,1,64,4.3,No,Yes,Yes,Not Placed,-8.706467662,2,66,Medium,0,No,Medium,No
+130,M,76.7,Central,89.7,Others,Commerce,Comm&Mgmt,8.5,1,2,2,90,4.8,Yes,Yes,Yes,Placed,16.94915254,5,92,High,3,No,High,Yes
+131,M,62,Central,65,Others,Commerce,Comm&Mgmt,8,1,3,0,80,4.4,Yes,Yes,No,Placed,4.838709677,4,82,Medium,2,Yes,Low,No
+132,F,74.9,Others,57,Others,Science,Others,6.5,1,1,1,72,3.8,No,No,Yes,Not Placed,-23.89853138,2,73,Low,0,No,Medium,Yes
+133,M,67,Others,68,Others,Commerce,Comm&Mgmt,8.4,1,1,0,81,4.6,Yes,No,Yes,Not Placed,1.492537313,2,82,High,1,No,Low,Yes
+134,M,73,Central,64,Others,Commerce,Comm&Mgmt,8.7,0,3,2,88,4.8,No,No,Yes,Not Placed,-12.32876712,5,88,High,2,Yes,High,No
+135,F,77.44,Central,92,Others,Commerce,Comm&Mgmt,8,0,1,0,60,4,No,No,Yes,Not Placed,18.80165289,1,60,Medium,0,Yes,Low,Yes
+136,F,72,Central,56,Others,Science,Comm&Mgmt,8.4,2,3,1,88,4.6,Yes,Yes,No,Placed,-22.22222222,5,91,High,2,No,Medium,No
+137,F,47,Central,59,Central,Arts,Comm&Mgmt,8.2,2,3,2,90,4.4,Yes,Yes,No,Placed,25.53191489,6,93,High,3,Yes,High,Yes
+138,M,67,Others,63,Central,Commerce,Comm&Mgmt,8.1,2,2,2,90,4.5,Yes,Yes,No,Placed,-5.970149254,5,93,High,3,Yes,High,No
+139,F,82,Others,64,Others,Science,Sci&Tech,7.9,1,3,1,75,3.7,No,Yes,Yes,Not Placed,-21.95121951,4,77,Medium,1,Yes,Medium,Yes
+140,M,77,Central,70,Central,Commerce,Comm&Mgmt,8.9,2,3,2,90,4.8,Yes,Yes,Yes,Placed,-9.090909091,6,93,High,3,Yes,High,Yes
+141,M,65,Central,64.8,Others,Commerce,Comm&Mgmt,6.5,1,1,1,72,4.5,No,No,Yes,Not Placed,-0.307692308,2,73,Low,0,No,Medium,Yes
+142,M,66,Central,64,Central,Science,Comm&Mgmt,7.6,1,1,0,73,4.3,No,Yes,No,Not Placed,-3.03030303,1,75,Medium,0,No,Low,Yes
+143,M,85,Central,60,Others,Science,Sci&Tech,8.4,1,3,2,90,4.6,Yes,Yes,Yes,Placed,-29.41176471,6,92,High,3,Yes,High,No
+144,M,77.67,Others,64.89,Others,Commerce,Comm&Mgmt,7.8,2,3,0,77,4.8,Yes,Yes,No,Placed,-16.45422943,4,80,Medium,2,Yes,Low,No
+145,M,52,Others,50,Others,Arts,Comm&Mgmt,8.4,1,2,1,74,4.3,Yes,Yes,No,Not Placed,-3.846153846,4,76,High,2,No,Medium,No
+146,M,89.4,Others,65.66,Others,Science,Sci&Tech,7.6,1,2,0,74,3.7,No,Yes,No,Not Placed,-26.55480984,2,76,Medium,1,Yes,Low,Yes
+147,M,62,Central,63,Others,Science,Comm&Mgmt,7.9,1,1,1,62,4.6,Yes,Yes,No,Not Placed,1.612903226,3,64,Medium,1,No,Medium,No
+148,M,70,Central,74,Central,Commerce,Comm&Mgmt,7.9,1,3,1,80,4.2,Yes,Yes,No,Placed,5.714285714,5,82,Medium,2,No,Medium,Yes
+149,F,77,Central,86,Central,Arts,Others,8,2,1,2,90,4.8,Yes,Yes,No,Not Placed,11.68831169,4,93,Medium,2,No,High,No
+150,M,44,Central,58,Central,Arts,Comm&Mgmt,7.9,2,1,0,83,4,Yes,Yes,Yes,Not Placed,31.81818182,2,86,Medium,1,No,Low,Yes
+151,M,71,Central,58.66,Central,Science,Sci&Tech,8.4,2,3,2,90,4.8,Yes,Yes,Yes,Placed,-17.38028169,6,93,High,3,Yes,High,Yes
+152,M,65,Central,65,Central,Commerce,Comm&Mgmt,8.6,0,3,2,90,4.8,Yes,Yes,No,Placed,0,6,91,High,3,Yes,High,Yes
+153,F,75.4,Others,60.5,Central,Science,Sci&Tech,7.8,0,1,0,81,3.9,Yes,Yes,No,Not Placed,-19.76127321,2,82,Medium,1,Yes,Low,Yes
+154,M,49,Others,59,Others,Science,Sci&Tech,8.1,2,3,3,90,4.8,Yes,Yes,Yes,Placed,20.40816327,7,93,High,3,No,High,No
+155,M,53,Central,63,Others,Science,Comm&Mgmt,7.2,1,3,1,75,4.2,Yes,Yes,Yes,Not Placed,18.86792453,5,77,Medium,2,Yes,Medium,No
+156,M,51.57,Others,74.66,Others,Commerce,Comm&Mgmt,7.7,0,1,0,81,4.8,Yes,Yes,Yes,Not Placed,44.77409347,2,82,Medium,1,No,Low,No
+157,M,84.2,Central,69.4,Central,Science,Sci&Tech,8.4,1,3,2,90,4.5,Yes,Yes,Yes,Placed,-17.57719715,6,92,High,3,No,High,Yes
+158,M,66.5,Central,62.5,Central,Commerce,Comm&Mgmt,8,1,3,1,87,4.6,Yes,Yes,No,Placed,-6.015037594,5,89,Medium,2,No,Medium,No
+159,M,67,Others,63,Others,Science,Sci&Tech,7.8,0,1,1,72,4,No,No,No,Not Placed,-5.970149254,2,72,Medium,0,Yes,Medium,Yes
+160,M,52,Central,49,Others,Commerce,Comm&Mgmt,6.5,1,1,0,63,3.5,No,No,No,Not Placed,-5.769230769,1,64,Low,0,No,Low,Yes
+161,M,87,Central,74,Central,Science,Sci&Tech,6.5,0,3,0,71,3.6,No,Yes,Yes,Not Placed,-14.94252874,3,72,Low,1,Yes,Low,No
+162,M,55.6,Others,51,Others,Commerce,Comm&Mgmt,7.9,1,2,1,81,4,Yes,Yes,No,Placed,-8.273381295,4,83,Medium,2,Yes,Medium,No
+163,M,74.2,Central,87.6,Others,Commerce,Comm&Mgmt,6.7,1,1,0,75,4.2,No,No,Yes,Not Placed,18.05929919,1,76,Medium,0,No,Low,No
+164,M,63,Others,67,Others,Science,Sci&Tech,6.9,0,1,0,73,4.1,No,Yes,No,Not Placed,6.349206349,1,74,Medium,0,Yes,Low,Yes
+165,F,67.16,Central,72.5,Central,Commerce,Comm&Mgmt,6.5,1,1,2,85,4.3,Yes,No,No,Not Placed,7.951161406,4,86,Low,2,No,High,No
+166,F,63.3,Central,78.33,Others,Commerce,Comm&Mgmt,6.5,0,1,1,79,3.9,No,No,No,Not Placed,23.74407583,2,79,Low,0,No,Medium,No
+167,M,62,Others,62,Others,Commerce,Comm&Mgmt,7.3,1,1,1,71,3.6,No,No,Yes,Not Placed,0,2,72,Medium,0,Yes,Medium,Yes
+168,M,67.9,Others,62,Others,Science,Sci&Tech,8.3,2,3,0,71,4.6,Yes,Yes,Yes,Not Placed,-8.689248895,4,74,High,2,Yes,Low,No
+169,F,48,Central,51,Central,Commerce,Comm&Mgmt,7.5,1,1,1,74,3.9,No,No,Yes,Not Placed,6.25,2,75,Medium,0,No,Medium,Yes
+170,M,59.96,Others,42.16,Others,Science,Sci&Tech,8,2,3,3,76,4.1,Yes,Yes,No,Placed,-29.68645764,7,79,Medium,3,Yes,High,No
+171,F,63.4,Others,67.2,Others,Commerce,Comm&Mgmt,8.3,1,2,1,69,3.8,No,Yes,No,Not Placed,5.993690852,3,71,High,1,No,Medium,No
+172,M,80,Others,80,Others,Commerce,Comm&Mgmt,6.6,0,3,0,87,4.5,No,No,Yes,Not Placed,0,3,87,Medium,1,Yes,Low,Yes
+173,M,73,Others,58,Others,Commerce,Comm&Mgmt,7.4,0,3,0,90,4.6,No,No,No,Not Placed,-20.54794521,3,90,Medium,1,No,Low,Yes
+174,F,52,Others,52,Others,Science,Sci&Tech,8,1,1,1,78,4.4,No,No,No,Not Placed,0,2,79,Medium,0,Yes,Medium,No
+175,M,73.24,Others,50.83,Others,Science,Sci&Tech,8,2,3,2,90,4.8,Yes,Yes,Yes,Placed,-30.59803386,6,93,Medium,3,No,High,No
+176,M,63,Others,62,Others,Science,Sci&Tech,6.7,1,2,0,73,4.5,No,Yes,No,Not Placed,-1.587301587,2,75,Medium,1,Yes,Low,Yes
+177,F,59,Central,60,Others,Commerce,Comm&Mgmt,8.3,1,2,3,78,3.8,Yes,No,No,Not Placed,1.694915254,6,79,High,3,No,High,No
+178,F,73,Central,97,Others,Commerce,Comm&Mgmt,8.5,1,3,2,90,4.8,Yes,Yes,Yes,Placed,32.87671233,6,92,High,3,Yes,High,No
+179,M,68,Others,56,Others,Science,Sci&Tech,7.5,2,1,2,90,4.8,Yes,No,No,Not Placed,-17.64705882,4,92,Medium,2,Yes,High,No
+180,F,77.8,Central,64,Central,Science,Sci&Tech,7.4,1,1,0,60,3.4,No,No,No,Not Placed,-17.7377892,1,61,Medium,0,Yes,Low,No
+181,M,65,Central,71.5,Others,Commerce,Comm&Mgmt,8.4,0,1,2,88,4.8,Yes,Yes,Yes,Not Placed,10,4,89,High,2,No,High,No
+182,M,62,Central,60.33,Others,Science,Sci&Tech,8.2,1,3,0,82,4.8,Yes,Yes,No,Placed,-2.693548387,4,84,High,2,Yes,Low,No
+183,M,52,Others,65,Others,Arts,Others,6.5,1,1,0,74,4.2,No,Yes,Yes,Not Placed,25,1,76,Low,0,No,Low,Yes
+184,M,65,Central,77,Central,Commerce,Comm&Mgmt,7.7,1,1,0,71,4.7,No,Yes,No,Not Placed,18.46153846,1,73,Medium,0,Yes,Low,Yes
+185,F,56.28,Others,62.83,Others,Commerce,Comm&Mgmt,7.3,1,2,2,67,4.5,No,No,No,Not Placed,11.63823738,4,68,Medium,2,No,High,No
+186,F,88,Central,72,Central,Science,Others,6.5,0,1,0,78,3.7,Yes,Yes,No,Not Placed,-18.18181818,2,79,Low,1,Yes,Low,Yes
+187,F,52,Central,64,Central,Commerce,Comm&Mgmt,6.5,1,1,1,68,4.1,No,No,No,Not Placed,23.07692308,2,69,Low,0,Yes,Medium,No
+188,M,78.5,Central,65.5,Central,Science,Sci&Tech,7.5,1,1,0,76,4.3,No,Yes,Yes,Not Placed,-16.56050955,1,78,Medium,0,Yes,Low,Yes
+189,M,61.8,Others,47,Others,Commerce,Comm&Mgmt,7.8,1,1,1,65,3.9,No,No,No,Not Placed,-23.94822006,2,66,Medium,0,Yes,Medium,Yes
+190,F,54,Central,77.6,Others,Commerce,Comm&Mgmt,6.8,1,1,0,78,4.3,No,No,No,Not Placed,43.7037037,1,79,Medium,0,Yes,Low,No
+191,F,64,Others,70.2,Central,Commerce,Comm&Mgmt,8.4,2,3,2,90,4.1,Yes,Yes,No,Placed,9.6875,6,93,High,3,No,High,No
+192,M,67,Others,61,Central,Science,Comm&Mgmt,7.8,2,2,2,80,4.6,No,Yes,No,Not Placed,-8.955223881,4,83,Medium,2,Yes,High,No
+193,M,65.2,Central,61.4,Central,Commerce,Comm&Mgmt,7.5,1,2,0,77,4.2,Yes,Yes,Yes,Placed,-5.828220859,3,79,Medium,2,Yes,Low,No
+194,F,60,Central,63,Central,Arts,Others,8.9,0,1,2,80,4.8,Yes,Yes,Yes,Not Placed,5,4,81,High,2,No,High,No
+195,M,52,Others,55,Others,Commerce,Comm&Mgmt,6.5,0,1,0,75,3.7,No,No,No,Not Placed,5.769230769,1,75,Low,0,Yes,Low,Yes
+196,M,66,Central,76,Central,Commerce,Comm&Mgmt,8.4,1,1,2,87,4.1,No,No,Yes,Not Placed,15.15151515,3,88,High,1,Yes,High,No
+197,M,72,Others,63,Others,Science,Sci&Tech,8.1,0,1,0,71,3.6,Yes,No,Yes,Not Placed,-12.5,2,71,High,1,Yes,Low,No
+198,F,83.96,Others,53,Others,Science,Sci&Tech,8.5,2,3,0,86,4.2,Yes,Yes,No,Placed,-36.87470224,4,89,High,2,No,Low,No
+199,F,67,Central,70,Central,Commerce,Others,7.6,1,1,1,82,4.8,Yes,Yes,No,Not Placed,4.47761194,3,84,Medium,1,Yes,Medium,Yes
+200,M,69,Others,65,Others,Commerce,Comm&Mgmt,7.8,2,3,0,79,4.3,Yes,No,No,Placed,-5.797101449,4,81,Medium,2,Yes,Low,Yes
+201,M,69,Others,60,Others,Commerce,Comm&Mgmt,8.6,1,3,2,90,4.7,Yes,Yes,No,Placed,-13.04347826,6,92,High,3,No,High,No
+202,M,54.2,Central,63,Others,Science,Comm&Mgmt,7.9,2,3,2,76,4.6,Yes,Yes,No,Placed,16.23616236,6,79,Medium,3,Yes,High,No
+203,M,70,Central,63,Central,Science,Sci&Tech,6.5,0,2,2,75,4.5,Yes,No,No,Not Placed,-10,5,75,Low,3,No,High,Yes
+204,M,55.68,Others,61.33,Others,Commerce,Comm&Mgmt,8.2,0,2,1,82,4.5,Yes,Yes,No,Placed,10.14727011,4,83,High,2,Yes,Medium,No
+205,F,74,Others,73,Others,Commerce,Comm&Mgmt,8.2,1,1,0,81,4.3,Yes,Yes,Yes,Not Placed,-1.351351351,2,83,High,1,Yes,Low,No
+206,M,61,Others,62,Others,Commerce,Comm&Mgmt,7.6,1,1,0,64,4.1,No,No,No,Not Placed,1.639344262,1,65,Medium,0,No,Low,No
+207,M,41,Central,42,Central,Science,Comm&Mgmt,7.3,1,2,1,84,4.6,No,Yes,No,Not Placed,2.43902439,3,86,Medium,1,No,Medium,Yes
+208,M,83.33,Central,78,Others,Commerce,Comm&Mgmt,8.4,2,3,2,90,4.5,Yes,Yes,Yes,Placed,-6.39625585,6,93,High,3,Yes,High,Yes
+209,F,43,Central,60,Others,Science,Comm&Mgmt,8.3,2,3,3,90,4.5,Yes,Yes,No,Placed,39.53488372,7,93,High,3,Yes,High,Yes
+210,M,62,Central,72,Central,Commerce,Comm&Mgmt,7.8,1,3,0,88,4.8,Yes,Yes,No,Placed,16.12903226,4,90,Medium,2,Yes,Low,No
+211,M,80.6,Others,82,Others,Commerce,Comm&Mgmt,8.3,1,2,1,82,4.7,Yes,Yes,No,Placed,1.736972705,4,84,High,2,No,Medium,Yes
+212,M,58,Others,60,Others,Science,Sci&Tech,7.5,1,1,1,69,4.1,No,No,No,Not Placed,3.448275862,2,70,Medium,0,No,Medium,Yes
+213,M,67,Others,67,Others,Commerce,Comm&Mgmt,8.6,2,3,2,78,4.8,Yes,Yes,Yes,Placed,0,6,81,High,3,Yes,High,Yes
+214,F,74,Others,66,Others,Commerce,Comm&Mgmt,7.8,2,2,2,77,4.2,Yes,No,No,Placed,-10.81081081,5,79,Medium,3,Yes,High,Yes
+215,M,62,Central,58,Others,Science,Comm&Mgmt,6.6,1,1,1,71,4.3,No,No,No,Not Placed,-6.451612903,2,72,Medium,0,Yes,Medium,Yes
