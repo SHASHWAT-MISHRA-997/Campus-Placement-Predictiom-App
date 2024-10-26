@@ -11,21 +11,66 @@ from sklearn.model_selection import train_test_split
 from sklearn.metrics import accuracy_score, classification_report
 from imblearn.over_sampling import SMOTE
 from sklearn.inspection import permutation_importance
+from PIL import Image
 
-# Custom CSS for hover effects on buttons
-st.markdown("""
+
+
+# Custom CSS for background hover effect and button colors
+st.markdown(""" 
     <style>
-    .stButton>button:hover {
-        background-color: rgb(255, 255, 255);
-        box-shadow: 0 0 10px rgba(255,255,255, 0.5), 
-                    0 0 20px rgba(0, 255, 255, 0.3), 
-                    0 0 30px rgba(255, 0, 255, 0.3);
-    }
+        body {
+            background: linear-gradient(135deg, rgba(255,0,0,0.7), rgba(0,0,255,0.7));
+            transition: background-color 0.5s ease;
+        }
+        .stButton > button:hover {
+            background-color: rgba(255, 165, 0, 0.8);
+            color: white;
+        }
+        .stButton > button {
+            background-color: rgba(0, 255, 0, 0.7);
+            color: black;
+            border: none;
+            border-radius: 5px;
+            padding: 10px 15px;
+            font-size: 16px;
+            transition: background-color 0.3s, transform 0.3s;
+        }
+        .stButton > button:active {
+            transform: scale(0.95);
+        }
+        .creator-link {
+            color: black;
+            font-size: 16px;
+            font-weight: bold;
+            text-decoration: none;
+            display: block;  /* Make the link a block element */
+            text-align: center;  /* Center text */
+            margin-top: 10px;   /* Add some space above */
+        }
+        .creator-link:hover {
+            background-color: white;  /* Background color on hover */
+            color: red;              /* Change text color on hover */
+            padding: 5px;           /* Add some padding on hover */
+            border-radius: 5px;     /* Rounded corners */
+        }
     </style>
-    """, unsafe_allow_html=True)
+""", unsafe_allow_html=True)
 
 # App Title and Brief Description
 st.title("🎓 Campus Placement Prediction App")
+
+# Banner Image
+banner_image_path = "Campus Placement Prediction app.png"  # Adjust this path as necessary
+if os.path.exists(banner_image_path):
+    banner_image = Image.open(banner_image_path)
+    
+    # Resize the image to a specific width (e.g., 800 pixels) while maintaining aspect ratio
+    banner_image = banner_image.resize((800, int(banner_image.height * (800 / banner_image.width))), Image.LANCZOS)
+    
+    st.image(banner_image, use_column_width=False, caption="Campus Placement Prediction App ")
+else:
+    st.error("Banner image not found. Please check the file path.")
+
 st.write("""
     Welcome to the **Campus Placement Prediction App**! 🎉
 
@@ -33,6 +78,10 @@ st.write("""
     and skill attributes. It’s a great tool for students to gauge their placement readiness and for recruiters 
     to pre-screen candidates.
 """)
+st.markdown(
+        '<a href="https://www.linkedin.com/in/sm980/" class="creator-link">Created by SHASHWAT MISHRA</a>',
+        unsafe_allow_html=True)
+
 
 st.write("### 🔍 How to Use This App:")
 st.write("""
