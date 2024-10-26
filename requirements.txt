@@ -7,3 +7,4 @@ seaborn
 shap
 fpdf
 joblib
+Plotly
