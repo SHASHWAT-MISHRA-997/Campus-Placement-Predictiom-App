@@ -1,6 +1,6 @@
 # 🎓 Campus Placement Prediction App
 
-The Campus Placement Prediction App is an interactive Streamlit application designed to predict the likelihood of a candidate's placement based on academic, experiential, and skill-based inputs. This app is beneficial for students assessing placement readiness and for recruiters pre-screening candidates. It provides a visually engaging interface, enhanced with custom CSS styling and animations.
+The Campus Placement Prediction App is an interactive Streamlit application designed to predict the likelihood of a candidate's placement based on academic, experiential and skill-based inputs. This app is beneficial for students assessing placement readiness and for recruiters pre-screening candidates. It provides a visually engaging interface, enhanced with custom CSS styling and animations.
 
 # Table of Contents
 
@@ -13,13 +13,13 @@ License
 
 # Features
 
-Interactive Model Training: Select and train various machine learning models, including Random Forest, Logistic Regression, SVM, and Decision Tree.
+Interactive Model Training: Select and train various machine learning models, including Random Forest, Logistic Regression, SVM and Decision Tree.
 
 Predictive Analysis: Enter candidate details and predict placement likelihood with model probabilities.
 
-Custom Styling: Enhanced UI/UX with CSS for gradient backgrounds, hover effects, and animation.
+Custom Styling: Enhanced UI/UX with CSS for gradient backgrounds, hover effects and animation.
 
-Data Insights: Display model accuracy, classification report, and feature importance for transparency and better decision-making.
+Data Insights: Display model accuracy, classification report and feature importance for transparency and better decision-making.
 
 # Installation
 
@@ -60,7 +60,7 @@ Data Loading and Preprocessing:
 
 Loads data from the Placement_Data.csv file.
 
-Encodes categorical variables such as gender, work experience, and degree types.
+Encodes categorical variables such as gender, work experience and degree types.
 
 Balances the data using SMOTE to handle class imbalances.
 
