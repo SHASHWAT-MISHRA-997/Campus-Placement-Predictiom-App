@@ -136,6 +136,10 @@ def train_placement_model(model_choice):
     data_path = 'Placement_Data.csv'
     df = pd.read_csv(data_path)
 
+    # Display the dataset
+    st.subheader("📄 Uploaded Dataset Preview")
+    st.dataframe(df)  # Use st.table(df) if you prefer a static table format
+
     # Display column names to debug missing columns
     st.write("Dataset Columns:", df.columns.tolist())  # Print available columns for debugging
 
